@@ -39,3 +39,26 @@ Notes
 - This project is a single multi-request application, not solely algorithm
   demos such as Dijkstra/BFS/DFS. The module header and this README reflect
   that intent.
+
+A* Algorithms
+
+The repository includes several A* algorithm examples/tutorials. They are
+kept as separate scripts (raw examples and tutorial variants). Brief notes
+below — run them individually with `python <filename>`.
+
+- `Astar.py`: Core A* implementation (single-file reference implementation).
+- `A star Algorithm.py`: Alternate A* example with different input format.
+- `Astar Algorithm 2.py`: A second variant, shows path reconstruction and
+  heuristics tuning.
+- `ASTAR TUTORIAL 3.py`: A tutorial-style walkthrough with inline
+  explanation and example grids.
+- `Astar tutorial 4.py`: Another tutorial example focusing on performance
+  and optimizations.
+- `ASTAR WITH COODINATES.PY`: A variant that demonstrates coordinate-based
+  inputs and visualization helpers.
+
+Recommended next steps
+
+- If you want these examples organized, I can move them into an `astar/`
+  folder and add a small `examples/` runner. Tell me if you'd like that.
+
