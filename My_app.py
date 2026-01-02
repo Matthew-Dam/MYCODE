@@ -1,4 +1,18 @@
-# multi_system.py
+"""My_app.py — Multi-request console application
+
+This module implements a small console "multi-system" that exposes several
+interactive utilities (weather lookup, news search, Gemini/OpenAI chat, and
+DuckDuckGo search). It's a single, multi-request application rather than a
+collection of separate algorithm examples (Dijkstra/BFS/DFS).
+
+Usage:
+        - Populate `APIs.env` with the required API keys (OPENAI_API_KEY,
+            GEMINI_API_KEY, NEWS_API_KEY, WEATHER_API_KEY).
+        - Run: `python My_app.py`
+
+The program provides a small menu and navigable app list; each app is a
+callable on the `ReqLink` list and can be run interactively.
+"""
 import os
 import re
 import datetime
