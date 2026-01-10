@@ -1,6 +1,6 @@
 # A* Algorithm Implementation
 import heapq
-# A node ono a grid
+# A node on a grid
 class Node:
     def __init__(self,position,parent=None):
         self.position = position
