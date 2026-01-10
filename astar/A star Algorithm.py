@@ -9,9 +9,12 @@ class Node:
         self.h = 0 # heuristic cost to goal
         self.f = 0 # total cost
 
-    def __it__(self,other):
+    def __lt__(self,other):
         return self.f < other.f # for heapq priority
     
+    def __eq__(self,other):
+        return self.position == other.position
+
 # Heuristic: Straight-line distance (Euclidean)
 def heuristic(a,b):
     return ((a[0]-b[0])**2 + (a[1]-b[1])**2)**0.5
